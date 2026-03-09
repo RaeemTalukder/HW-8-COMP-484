@@ -22,7 +22,7 @@ html, body {
      background-attachment: fixed;
         background-size: cover;
 }
-
+ <!-- // Navigation -->
 nav{
     position: sticky;   
     top: 0;
@@ -50,11 +50,6 @@ nav a{
 }
 
 
-body {
-    text-align: center;
-    padding: 20px;
-    font-family: 'Oswald', sans-serif;
-}
 
 .content-wrap {
     background-color: #1b1b1b;
@@ -63,23 +58,6 @@ body {
     padding: 50px;
     overflow: hidden;
 }
-.coursework {
-        background-color: #1b1b1b;
-     max-width: 950px;
-    margin: 0 auto;
-    padding: 50px;
-    list-style: none;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color :white;
-}
-
-
-.contact-info {
-    background-color: #1b1b1b;
-
-}
-
 
 
 
@@ -95,6 +73,8 @@ body {
     float: left;
     min-height: 225px;
 }
+/* Headings, Body,  & Paragraphs 
+------------------------------------*/
 h1{
     color: #11437c;
     font-size: 36px;
@@ -126,6 +106,23 @@ p{
     font-size: 16px;
     margin-bottom: 4px;
 }
+.coursework {
+    background-color: #1b1b1b;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color :white;
+}
+body {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Header & Footer 
+------------------------------------*/
 footer{
     text-align: center;
     padding: 0 auto;
@@ -149,20 +146,3 @@ img{
     border-radius: 50%;
  
 }
-
-
-
-
-
-/* Header & Footer 
-------------------------------------*/
-
-
-
-/* Work Experience
-------------------------------------*/
-
-
-
-/* Education
-------------------------------------*/

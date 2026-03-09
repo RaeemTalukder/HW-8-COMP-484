@@ -1,0 +1,168 @@
+/* Color Palette
+
+# - #11437c
+# - #1b1b1b
+# - #435ada
+# - #ffffff
+# - #0752b5
+# - #474747
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html, body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url('../images/tech.jpg');
+    background-position: center;   
+     background-attachment: fixed;
+        background-size: cover;
+}
+
+nav{
+    position: sticky;   
+    top: 0;
+    text-align: center;
+
+}
+nav ul{
+    background-image:  linear-gradient(to bottom, rgba(7, 82, 181, 0.5), rgba(0,0,0,0.5)), url('../images/computer.jpg');
+    background-size: 50% auto;
+    background-position: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+nav a{
+    padding: 12px 18px;
+    font-family: 'Notable', sans-serif;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+
+body {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.content-wrap {
+    background-color: #1b1b1b;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+.coursework {
+        background-color: #1b1b1b;
+     max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color :white;
+}
+
+
+.contact-info {
+    background-color: #1b1b1b;
+
+}
+
+
+
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+h1{
+    color: #11437c;
+    font-size: 36px;
+    margin-bottom: 10px;
+        font-family: 'Notable', sans-serif;
+        margin: 0;
+}
+h2{
+    color:  #435ada;
+    font-size: 36px;
+    margin-bottom: 8px;
+        font-family: 'Notable', sans-serif;
+        margin-top: 0;
+        margin: 0;
+}
+h3{
+    color:#0752b5;
+    font-size: 19px;
+    margin-bottom: 6px;
+        font-family: 'Notable', sans-serif;
+}
+h4{
+    color: #474747;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+footer{
+    text-align: center;
+    padding: 0 auto;
+    background-color: #1b1b1b;
+    font-size: 14px;
+}
+header{
+    text-align: right;
+    padding: 20px;
+}
+
+img{
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    background-color: #1b1b1b;
+    object-fit: cover;
+
+    display: block;
+    width: 300px;
+    border-radius: 50%;
+ 
+}
+
+
+
+
+
+/* Header & Footer 
+------------------------------------*/
+
+
+
+/* Work Experience
+------------------------------------*/
+
+
+
+/* Education
+------------------------------------*/

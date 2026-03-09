@@ -130,6 +130,10 @@ footer{
     font-size: 14px;
     color: white;
 }
+footer a{
+    color: #0752b5;
+    text-decoration: none;
+}
 header{
     text-align: right;
     padding: 20px;

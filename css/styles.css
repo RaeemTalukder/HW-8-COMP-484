@@ -22,7 +22,8 @@ html, body {
      background-attachment: fixed;
         background-size: cover;
 }
-
+/*Navigation
+------------------------------------*/
 nav{
     position: sticky;   
     top: 0;
@@ -49,7 +50,8 @@ nav a{
     text-decoration: none;
 }
 
-
+/* Global styles 
+------------------------------------*/
 body {
     text-align: center;
     padding: 20px;
@@ -95,6 +97,8 @@ body {
     float: left;
     min-height: 225px;
 }
+/* Headings & Content
+------------------------------------*/
 h1{
     color: #11437c;
     font-size: 36px;
@@ -126,6 +130,8 @@ p{
     font-size: 16px;
     margin-bottom: 4px;
 }
+/* Footers & Headers
+------------------------------------*/
 footer{
     text-align: center;
     padding: 0 auto;
@@ -140,7 +146,8 @@ header{
     text-align: right;
     padding: 20px;
 }
-
+/* Profile Image
+------------------------------------*/
 img{
     width: 300px;
     border-radius: 50%;

@@ -72,6 +72,13 @@ body {
     color :white;
 }
 
+#contact {
+    background-color:#0c0c0c;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
 
 .contact-info {
     background-color: #1b1b1b;
